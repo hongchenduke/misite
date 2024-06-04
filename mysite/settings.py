@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     # 'polls',  # django官方文档教程案例
     'tasks',  # 大江狗博客案例
     'bookstore',  # 是为了学习django模型的使用
+    'rest_framework',  # 添加restframework
+    'blog',  # 学习restframework模式
 ]
 
 MIDDLEWARE = [
@@ -105,9 +107,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
